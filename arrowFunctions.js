@@ -3,6 +3,8 @@
  */
 function greet(name) {
   return `Hello ${name}`;
+  const greet = (name) => `Hello ${name}`;
+
 }
 
 /**
@@ -11,9 +13,12 @@ function greet(name) {
  * - returns their sum
  * - write it as an arrow function
  */
-function sum(a, b) {
+// function sum(a, b) {
   // Your code here
-}
+  const sum = (a, b) => a + b;
+
+  
+// }
 
 /**
  * square(n):
@@ -25,9 +30,11 @@ function sum(a, b) {
  * square(4) -> 16
  * sqaure(10) -> 100
  */
-function square(n) {
+// function square(n) {
   // Your code here
-}
+  const square = (n) => n * n;
+
+// }
 
 /**
  * 🌶️🌶️
